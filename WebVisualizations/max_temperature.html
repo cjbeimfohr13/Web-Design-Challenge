@@ -11,11 +11,48 @@
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Plot</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                 <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                 <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                 <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+               </div>
+             </li>
+              <li class="nav-item">
+               <a class="nav-link" href="Comparisons.html">Comparison</a>
+             </li>
+              <li class="nav-item">
+               <a class="nav-link" href="Data.html">Data</a>
+             </li>
+            </ul>
+          </div>
+       </nav>  
+    </div>
+
     <div class="Max-Temp page">
         <h1>Max Temperature</h1>
+        <hr>
         <img src="C:\Users\cjbei\Desktop\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig1.png">
         <p>As expected, the weather becomes significantly warmer as one approaches the equator(0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>  
     </div>
-        
+    <div class="visualizations">
+      <h1>Visualizations</h1>
+      <hr>
+        <a href="max_temperature.html"><img src="C:\Users\cjbei\Desktop\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig1.png"> </a>
+        <a href="Humidity.html"><img src="C:\Users\cjbei\Desktop\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig2.png"> </a>
+        <a href="Cloudiness.html"><img src="C:\Users\cjbei\Desktop\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig3.png"> </a>
+        <a href="Wind_Speed.html"><img src="C:\Users\cjbei\Desktop\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig4.png"> </a>
+
+    </div>
 </body>
 </html>
