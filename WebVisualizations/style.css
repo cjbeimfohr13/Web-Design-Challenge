@@ -1,8 +1,18 @@
-/* .navbar-brand{ */
-    /* background: turquoise; */
-    /* margin-left: 0px; */
-    /* color: white; */
 
-/* .desc{ */
-    /* padding: 15px */
-    /* text-align:"center"; */
+body{
+    background: #f1f1f1 ;
+}
+.navbar-brand{
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top:5px;
+    background: turquoise;
+}
+.desc{
+    padding: 15px;
+    text-align:center;
+}
+.gridbox{
+    width: 
+}
