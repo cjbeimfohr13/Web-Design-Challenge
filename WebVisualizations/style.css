@@ -18,21 +18,48 @@ body{
 }
 .row1{
     margin-top:30px;
-    padding-left: 20px;
-    padding-right:20px;
+    padding-left: 50px;
+    padding-right:50px;
 }
 .Desc{
     padding: 15px;
     color: turquoise;
     font-family: initial;
+    /* text-align: center; */
 }
 .comparison{
     font-family: initial;
     color: turquoise;
+    padding-bottom: 20px;
 }
 .compare{
     background: white;
     padding:20px;
+}
+.comp-par{
+    font-family: initial;
+}
+.comp{
+    width:500px;
+    position:relative;
+}
+.comp-img1{
+    left:20px;
+}
+.comp-img2{
+    left:20px;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+.comp-img3{
+    left: 20px;
+    margin-bottom:30px;
+}
+
+.comp-img4{
+    left:20px;
+    margin-bottom:30px;
+    margin-left: -15px;
 }
 .summary{
     padding: 20px;
