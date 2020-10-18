@@ -21,10 +21,11 @@ body{
     padding-left: 50px;
     padding-right:50px;
 }
-.Desc{
+.col{
     padding: 15px;
     color: turquoise;
     font-family: initial;
+    text-align: center;
     /* text-align: center; */
 }
 /* comparison file */
@@ -148,5 +149,39 @@ h3{
     color: turquoise;
 }
 .temp{
+    font-family: initial;
+}
+/* cloudiness file */
+.cloud-header{
+    font-family: initial;
+    color: turquoise;
+}
+.cloud{
+    font-family: initial;
+}
+.cloudiness-page{
+    padding:20px;
+    background: white;
+}
+.cloud-pic{
+    width: 600px;
+}
+/* humidity file */
+.humidity-page{
+    padding: 20px;
+    background: white;
+}
+.row3{
+    margin-top:20px;
+    padding-left: 50px; 
+}
+.humid-pic{
+    width: 600px;
+}
+.humidity-header{
+    color: turquoise;
+    font-family: initial;
+}
+.humid{
     font-family: initial;
 }
