@@ -1,4 +1,4 @@
-
+/* nav page file*/
 body{
     background: #f1f1f1 ;
 }
@@ -27,6 +27,7 @@ body{
     font-family: initial;
     /* text-align: center; */
 }
+/* comparison file */
 .comparison{
     font-family: initial;
     color: turquoise;
@@ -61,6 +62,8 @@ body{
     margin-bottom:30px;
     margin-left: -15px;
 }
+
+
 .summary{
     padding: 20px;
     background: white;
@@ -85,6 +88,8 @@ h3{
     font-family: initial;
     color: turquoise;
 }
+
+/* visualization section */
 .visualizations{
     background: white;
 }
@@ -110,6 +115,38 @@ h3{
     margin-bottom:30px;
     margin-left: -15px;
 }
-.gridbox{
-    width: 
+/* wind speed file */
+.wind-header{
+    font-family: initial;
+    color: turquoise;
+}
+.wind{
+    font-family: initial;
+}
+.wind-speed-page{
+    padding: 20px;
+    background: white;
+}
+.wind-speed-pic{
+    width: 600px;
+}
+.row2{
+    margin-top:20px;
+    padding-left: 50px;
+}
+
+/* max temp file */
+.max-temperature-page{
+    padding:20px;
+    background: white;
+}
+.max-temp-pic{
+    width: 600px;
+}
+.max-temp-header{
+    font-family: initial;
+    color: turquoise;
+}
+.temp{
+    font-family: initial;
 }
