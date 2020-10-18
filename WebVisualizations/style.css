@@ -2,8 +2,9 @@
 body{
     background: #f1f1f1 ;
 }
+
 .navbar-brand{
-    padding: 20px;
+    padding: 10px;
     margin-right: 10px;
     margin-left: -15px;
     margin-top:5px;
@@ -41,10 +42,26 @@ body{
 .comp-par{
     font-family: initial;
 }
-.comp{
-    width:500px;
+/* after */
+.float-left{
+    width:400px;
     position:relative;
 }
+.float-right{
+    width:400px;
+    position:relative;
+}
+
+.grid-box1 {
+    float: left;
+    width: 25%;
+  }
+.gridbox2{
+    float: left;
+    width: 25%;
+}
+
+/* before */
 .comp-img1{
     left:20px;
 }
@@ -184,4 +201,11 @@ h3{
 }
 .humid{
     font-family: initial;
+}
+
+/* media queries */
+@media(max-width: 480px){
+    .navbar nav {
+        visibility: hidden;
+      }
 }
