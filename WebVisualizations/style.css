@@ -9,9 +9,33 @@ body{
     margin-top:5px;
     background: turquoise;
 }
+.row{
+    margin-top: 20px;
+}
 .desc{
     padding: 15px;
     text-align:center;
+}
+.summary{
+    padding: 20px;
+    background: white;
+}
+.img-summary-lat{
+     padding: 10px;
+    width: 300px;
+    height: 275px;
+    float: left;
+}
+h3{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+.visualizations{
+    background: white;
+}
+.vis{
+    width: 200px;
 }
 .gridbox{
     width: 
