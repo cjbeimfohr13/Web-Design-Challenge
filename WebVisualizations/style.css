@@ -5,20 +5,32 @@ body{
 .navbar-brand{
     padding: 20px;
     margin-right: 10px;
-    margin-left: 0px;
+    margin-left: -15px;
     margin-top:5px;
     background: turquoise;
+    color:white;
+    margin-bottom: -8px;
+    font-family: initial ;
 }
+
 .row{
     margin-top: 20px;
 }
 .desc{
     padding: 15px;
     text-align:center;
+    font-family: initial;
 }
 .summary{
     padding: 20px;
     background: white;
+    font-family: initial;
+}
+.sum-header{
+    color: turquoise;
+}
+.summary1{
+    color:black;
 }
 .img-summary-lat{
      padding: 10px;
@@ -30,12 +42,33 @@ h3{
     padding-top: 10px;
     text-align: left;
     padding-left: 20px;
+    font-family: initial;
+    color: turquoise;
 }
 .visualizations{
     background: white;
 }
 .vis{
     width: 200px;
+    position:relative;
+    /* margin-bottom: 20px; */
+}
+.vis1{
+    left:20px;
+}
+.vis2{
+    left:20px;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+.vis3{
+    left: 20px;
+    margin-bottom:30px;
+}
+.vis4{
+    left:20px;
+    margin-bottom:30px;
+    margin-left: -15px;
 }
 .gridbox{
     width: 
