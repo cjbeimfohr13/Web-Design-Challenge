@@ -12,6 +12,7 @@ body{
     color:white;
     margin-bottom: -8px;
     font-family: initial ;
+    font-weight: bold;
 }
 
 .row{
@@ -192,15 +193,26 @@ em{
     margin-left: 90px;
     margin-right: 90px;
 }
-caption{
+.title1{
     color: turquoise;
     font-family: initial;
     caption-side: top;
     font-size: 30px;
+}
+.title2{
+    caption-side: top;
+    font-size: 12px;
+    font-weight: normal;
+}
 .datatable{
     padding:25px;
+    padding-left:45px;
+    padding-right: 45px;
     background: white;
-    font-family: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 40px;
     /* table-layout: auto; */
 
 }
@@ -210,7 +222,7 @@ caption{
 /* .table{ */
     /* width:600px; */
     
-}
+
 /* media queries */
 /* @media(max-width: 480px){
     .navbar nav {
