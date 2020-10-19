@@ -182,17 +182,33 @@ h3{
     font-family: initial;
 }
 /* Data file */
+em{
+    font-family: initial;
+    color: turquoise;
+    text-align: center;
+    font-style: unset;
+}
+.data-container{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+caption{
+    color: turquoise;
+    font-family: initial;
+    caption-side: top;
+    font-size: 30px;
 .datatable{
     padding:25px;
     background: white;
     font-family: initial;
+    /* table-layout: auto; */
 
 }
 .data-header{
     color: turquoise;
 }
-.table{
-    width:600px;
+/* .table{ */
+    /* width:600px; */
     
 }
 /* media queries */
