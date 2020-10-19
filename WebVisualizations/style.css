@@ -61,27 +61,6 @@ body{
     width: 25%;
 }
 
-/* before */
-.comp-img1{
-    left:20px;
-}
-.comp-img2{
-    left:20px;
-    margin-right: 15px;
-    margin-left: -15px;
-}
-.comp-img3{
-    left: 20px;
-    margin-bottom:30px;
-}
-
-.comp-img4{
-    left:20px;
-    margin-bottom:30px;
-    margin-left: -15px;
-}
-
-
 .summary{
     padding: 20px;
     background: white;
@@ -202,16 +181,23 @@ h3{
 .humid{
     font-family: initial;
 }
+/* Data file */
+.datatable{
+    padding:25px;
+    background: white;
+    font-family: initial;
 
-/* data table */
-.table-striped{}
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
+}
+.data-header{
+    color: turquoise;
+}
+.table{
+    width:600px;
+    
 }
 /* media queries */
-@media(max-width: 480px){
+/* @media(max-width: 480px){
     .navbar nav {
         visibility: hidden;
       }
-}
+} */
