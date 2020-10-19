@@ -42,6 +42,8 @@ body{
 }
 .comp-par{
     font-family: initial;
+    font-size: 12px;
+    font-weight: bold;
 }
 /* after */
 .float-left{
