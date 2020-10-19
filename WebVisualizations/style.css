@@ -203,6 +203,12 @@ h3{
     font-family: initial;
 }
 
+/* data table */
+.table-striped{}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+}
 /* media queries */
 @media(max-width: 480px){
     .navbar nav {
